@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MUDDA — Law Office Management Portal</title>
+<link rel="icon" href="assets/logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Mukta:wght@400;500;600&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="offline" class="offline" hidden></div>
+<aside id="sidebar" class="sidebar"><img src="assets/logo.svg" class="logo" alt="MUDDA"><nav id="nav"></nav></aside>
+<div id="scrim" class="scrim"></div>
+<div class="main">
+ <header class="top">
+  <button id="menuBtn" class="icon-btn" data-i18n-title="collapse" aria-label="Menu"><i data-lucide="panel-left"></i></button>
+  <div class="crumb"><small id="crumb"></small><h1 id="pageTitle"></h1></div>
+  <div class="search"><i data-lucide="search"></i><input id="gsearch" data-i18n-ph="search_ph"></div>
+  <div class="lang"><button data-lang="en">EN</button><button data-lang="ne">नेपाली</button></div>
+  <button id="bell" class="icon-btn" data-i18n-title="nav_notifications"><i data-lucide="bell"></i><b class="dot"></b></button>
+  <button id="profile" class="profile"><span class="av">MA</span><span class="who"><b data-i18n="admin_name"></b><small data-i18n="role_admin"></small></span></button>
+</header>
+<main id="view" class="view"></main></div>
+<div id="modal" class="modal" hidden></div><div id="toast" class="toast" hidden></div>
+<script src="https://unpkg.com/lucide@0.383.0/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="script.js"></script></body></html>

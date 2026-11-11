@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="MUDDA">
+<g fill="none" stroke="#D8B56D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 8v38M22 52h20M26 46h12M14 15h36"/><circle cx="32" cy="8" r="2.4" fill="#D8B56D"/>
+<path d="M14 15 7 33M14 15l13 18M50 15l-13 18M50 15l7 18"/>
+<path d="M5 33h24c0 6-5 9-12 9S5 39 5 33zM35 33h24c0 6-5 9-12 9s-12-3-12-9z" fill="#D8B56D" fill-opacity=".18"/></g>
+<text x="76" y="41" font-family="Cinzel,'Times New Roman',serif" font-size="30" font-weight="700" letter-spacing="5" fill="#FFFFFF">MUDDA</text>
+<path d="M78 50h132" stroke="#D8B56D" stroke-width="1"/></svg>
